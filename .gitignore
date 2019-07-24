@@ -12,6 +12,7 @@
 /tmp/*
 !/log/.keep
 !/tmp/.keep
+/.vagrant
 
 # Ignore uploaded files in development
 /storage/*
@@ -28,6 +29,7 @@
 
 # Ignore application configuration
 /config/application.yml
+/config/application.production.yml
 
 # ignore folder test
 /test/*

@@ -101,4 +101,6 @@ config.action_mailer.smtp_settings = {
   enable_starttls_auto: true
 }
 config.action_mailer.default_url_options = { :host => ENV["host_url"]}
+
+config.force_ssl = true
 end

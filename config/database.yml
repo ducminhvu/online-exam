@@ -18,5 +18,5 @@ test:
 production:
   <<: *default
   database: OnlineExam_production
-  username: OnlineExam
-  password: <%= ENV["ONLINEEXAM_DATABASE_PASSWORD"] %>
+  username: <%= ENV["db_username"] %>
+  password: <%= ENV["db_password"] %>
